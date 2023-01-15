@@ -1,5 +1,5 @@
 
-// got license badge info rthrough this link https://shields.io/category/license
+// got license badge info through this link https://shields.io/category/license
 function renderLicenseBadge(license) {
   if (license != 'No License'){
     return `![license badge](https://img.shields.io/badge/license-${license}-blue)`  
@@ -45,18 +45,28 @@ function generateMarkdown(data) {
   4. [How to Contribute](#how-to-contribute)
   5. [Tests](#tests)
 
-  ## Installation(#table-of-contents)
+  ---
 
-  ## Usage(#table-of-contents)
+  ## Installation(#Table of Contents)
+  ${data.installation}
 
-  ## License(#table-of-contents)
+  ## Usage(#Table of Contents)
+  ${data.usage}
 
-  ## How to Contribute(#table-of-contents)
+  ## License(#Table of Contents)
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}
 
-  ## Tests(#table-of-contents)
+  ## How to Contribute(#Table of Contents)
+  ${data.contributing}
 
-  [Github]
-  [Email]
+  ## Tests(#Table of Contents)
+   ${data.tests}
+
+   ---
+
+  [Github](http://github.com/${data.username})
+  [Email: ${data.email}]
 
 `;
 }
