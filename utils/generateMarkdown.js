@@ -35,38 +35,42 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## Description
-  ${data.description}
-
-  ## Table of Contents
-  1. [Installation](#installation)
-  2. [Usage](#usage)
-  3. [License](#license)
-  4. [How to Contribute](#how-to-contribute)
-  5. [Tests](#tests)
+  ## Table-of-Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
+  - [Contact](#contact)
 
   ---
 
-  ## Installation(#Table of Contents)
+  ## [Description](#table-of-contents)
+  ${data.description}
+
+  ## [Installation](#table-of-contents)
   ${data.installation}
 
-  ## Usage(#Table of Contents)
+  ## [Usage](#table-of-contents)
   ${data.usage}
 
-  ## License(#Table of Contents)
+  ## [License](#table-of-contents)
   ${renderLicenseSection(data.license)}
   ${renderLicenseBadge(data.license)}
 
-  ## How to Contribute(#Table of Contents)
+  ## [How to Contribute](#table-of-contents)
   ${data.contributing}
 
-  ## Tests(#Table of Contents)
+  ## [Tests](#table-of-contents)
    ${data.tests}
 
    ---
+  ## [Contact](#table-of-contents)
 
   [Github](http://github.com/${data.username})
-  [Email: ${data.email}]
+  
+  [Email: ${data.email}](mailto:${data.email})
 
 `;
 }
