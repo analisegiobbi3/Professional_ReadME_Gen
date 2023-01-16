@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// If a license is chosen, the link to info on the license is added to the readme
 // If there is no license, return n/a to indicate that there is no license 
 function renderLicenseSection(license) {
   if (license != 'No License'){
@@ -28,7 +28,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// function uses markdown to create a readme based on the inputs
 function generateMarkdown(data) {
   return `
   # ${data.title}
@@ -57,6 +57,9 @@ function generateMarkdown(data) {
 
   ## [License](#table-of-contents)
   ${renderLicenseSection(data.license)}
+
+  For information on other liceneses, please visit
+  [choosealicense.com](https://choosealicense.com/)
 
   ## [How to Contribute](#table-of-contents)
   ${data.contributing}

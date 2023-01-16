@@ -1,1 +1,44 @@
-"\n    # asldjkfhad\n  \n    ## Description\n    asdlkfja\n  \n    ## Table of Contents\n    1. [Installation](#installation)\n    2. [Usage](#usage)\n    3. [License](#license)\n    4. [How to Contribute](#how-to-contribute)\n    5. [Tests](#tests)\n  \n    ---\n  \n    ## Installation(#Table of Contents)\n    alsdjf\n  \n    ## Usage(#Table of Contents)\n    askdjfh\n  \n    ## License(#Table of Contents)\n    \n    \n  \n    ## How to Contribute(#Table of Contents)\n    lasjdf\n  \n    ## Tests(#Table of Contents)\n     kalsdjf\n  \n     ---\n  \n    [Github](http://github.com/laksdjf)\n    [Email: alsdkfj]\n  \n  "
+
+  # Node.js Challenge: Professional README Generator
+
+  
+
+  ## Table-of-Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
+  - [Contact](#contact)
+
+  ---
+
+  ## [Description](#table-of-contents)
+  This program creates a professional readme using inquirer and chosen prompts from the user
+
+  ## [Installation](#table-of-contents)
+  to install, clone the repo locally to your machine. This can be done with the clone button in github
+
+  ## [Usage](#table-of-contents)
+  This project can be used to create a readme without having to manually code the readme
+
+  ## [License](#table-of-contents)
+  n/a
+
+  For information on other liceneses, please visit
+  [choosealicense.com](https://choosealicense.com/)
+
+  ## [How to Contribute](#table-of-contents)
+  n/a
+
+  ## [Tests](#table-of-contents)
+   n/a
+
+   ---
+  ## [Contact](#table-of-contents)
+
+  [Github](http://github.com/analisegiobbi3)
+
+  [Email: analise.giobbi@gc.com](mailto:analise.giobbi@gc.com)
+

@@ -1,7 +1,7 @@
 
-  # test
+  # Node.js Challenge: Professional README Generator
 
-  ![badge](https://img.shields.io/badge/license-agpl-blue)
+  
 
   ## Table-of-Contents
   - [Description](#description)
@@ -15,27 +15,30 @@
   ---
 
   ## [Description](#table-of-contents)
-  test
+  This program creates a professional readme using inquirer and chosen prompts from the user
 
   ## [Installation](#table-of-contents)
-  test
+  to install, clone the repo locally to your machine. This can be done with the clone button in github
 
   ## [Usage](#table-of-contents)
-  test
+  This project can be used to create a readme without having to manually code the readme
 
   ## [License](#table-of-contents)
-  [agpl](http://choosealicense.com/licenses/agpl/)
+  n/a
+
+  For information on other liceneses, please visit
+  [choosealicense.com](https://choosealicense.com/)
 
   ## [How to Contribute](#table-of-contents)
-  test
+  n/a
 
   ## [Tests](#table-of-contents)
-   test
+   n/a
 
    ---
   ## [Contact](#table-of-contents)
 
-  [Github](http://github.com/test)
+  [Github](http://github.com/analisegiobbi3)
 
-  [Email: test](mailto:test)
+  [Email: analise.giobbi@gc.com](mailto:analise.giobbi@gc.com)
 

@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+//creates constants for the inquirer package, fs write to file, and the secondary file containing markdown
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
-// TODO: Create an array of questions for user input
+// questions needed to create the readme
 const questions = [
     {
         type: 'input',
@@ -54,11 +54,12 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to initialize app
+// this function grabs teh answers from the questions and puts them into the readme file using the markdown function
 function init() {
     return inquirer.prompt(questions)
     .then((answers) =>{
         const readmePageContent = generateMarkdown(answers);
+        //adds the new readme file to a folder called output
         fs.writeFile('./output/README.md', readmePageContent, (err) =>
         err ? console.log(err) : console.log('You have successfully generated a README')
         )
