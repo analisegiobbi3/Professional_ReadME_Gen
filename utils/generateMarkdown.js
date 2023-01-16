@@ -2,7 +2,7 @@
 // got license badge info through this link https://shields.io/category/license
 function renderLicenseBadge(license) {
   if (license != 'No License'){
-    return `![license badge](https://img.shields.io/badge/license-${license}-blue)`  
+    return `![badge](https://img.shields.io/badge/license-${license}-blue)`  
   }else{
     return '';
   }
@@ -12,21 +12,19 @@ function renderLicenseBadge(license) {
 //License information found through this link https://docs.github.com/en/rest/licenses?apiVersion=2022-11-28
 function renderLicenseLink(license) {
   if (license != 'No License'){
-    return `[${license}](https://choosealicense.com/licenses/${license})`
+    return `[${license}](http://choosealicense.com/licenses/${license}/)`
   }else{
     return '';
   }
 }
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// If there is no license, return n/a to indicate that there is no license 
 function renderLicenseSection(license) {
   if (license != 'No License'){
-    return ` ##[License] (#Table of Contents)
-    The following licenses are used in this application: 
-    ${renderLicenseLink(license)}`
+    return `${renderLicenseLink(license)}`
   }else{
-    return '';
+    return `n/a`;
   }
 }
 
@@ -34,6 +32,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
+
+  ${renderLicenseBadge(data.license)}
 
   ## Table-of-Contents
   - [Description](#description)
@@ -57,7 +57,6 @@ function generateMarkdown(data) {
 
   ## [License](#table-of-contents)
   ${renderLicenseSection(data.license)}
-  ${renderLicenseBadge(data.license)}
 
   ## [How to Contribute](#table-of-contents)
   ${data.contributing}
@@ -69,7 +68,7 @@ function generateMarkdown(data) {
   ## [Contact](#table-of-contents)
 
   [Github](http://github.com/${data.username})
-  
+
   [Email: ${data.email}](mailto:${data.email})
 
 `;

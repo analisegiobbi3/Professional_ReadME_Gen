@@ -39,7 +39,8 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Select your license: ',
-        choices: ['No License', 'MIT License', 'GNU Lesser General Public License v3.0', 'Mozilla Public License 2.0', 'GNU Affero General Public License v3.0', 'The Unlicense', 'Apache License 2.0', 'GNU General Public License v3.0'],
+        choices: ['No License', 'agpl', 'gpl-3.0', 'lgpl-3.0', 'apache', 'agpl-3.0', 'mpl-2.0', 'bsl-1.0', 'mit', 'unlicense']
+        // choices: ['No License', 'MIT License', 'GNU Lesser General Public License v3.0', 'Mozilla Public License 2.0', 'GNU Affero General Public License v3.0', 'The Unlicense', 'Apache License 2.0', 'GNU General Public License v3.0'],
     },
     {
         type: 'input',
@@ -58,7 +59,7 @@ function init() {
     return inquirer.prompt(questions)
     .then((answers) =>{
         const readmePageContent = generateMarkdown(answers);
-        fs.writeFile('./utils/README.md', readmePageContent, (err) =>
+        fs.writeFile('./output/README.md', readmePageContent, (err) =>
         err ? console.log(err) : console.log('You have successfully generated a README')
         )
     })
