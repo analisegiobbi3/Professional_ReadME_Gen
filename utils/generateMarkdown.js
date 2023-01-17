@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   - [License](#license)
   - [How to Contribute](#how-to-contribute)
   - [Tests](#tests)
-  - [Contact](#contact)
+  - [Questions](#questions)
 
   ---
 
@@ -68,7 +68,8 @@ function generateMarkdown(data) {
    ${data.tests}
 
    ---
-  ## [Contact](#table-of-contents)
+  ## [Questions](#table-of-contents)
+  For any inquiries regarding the application, please use the github or email below: 
 
   [Github](http://github.com/${data.username})
 

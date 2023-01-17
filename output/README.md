@@ -1,5 +1,5 @@
 
-  # Sample README.md
+  # test
 
   
 
@@ -10,18 +10,18 @@
   - [License](#license)
   - [How to Contribute](#how-to-contribute)
   - [Tests](#tests)
-  - [Contact](#contact)
+  - [Questions](#questions)
 
   ---
 
   ## [Description](#table-of-contents)
-  This is a demo of the readme that will be provided with the submission
+  tes
 
   ## [Installation](#table-of-contents)
-  this section will include installation instructions
+  test
 
   ## [Usage](#table-of-contents)
-  this project is used to generate a readme
+  test
 
   ## [License](#table-of-contents)
   n/a
@@ -30,15 +30,16 @@
   [choosealicense.com](https://choosealicense.com/)
 
   ## [How to Contribute](#table-of-contents)
-  n/a
+  test
 
   ## [Tests](#table-of-contents)
-   n/a
+   test
 
    ---
-  ## [Contact](#table-of-contents)
+  ## [Questions](#table-of-contents)
+  for an inquiries regarding the application, please use the github or email below: 
 
-  [Github](http://github.com/analisegiobbi3)
+  [Github](http://github.com/test)
 
-  [Email: analise.giobbi@gc.com](mailto:analise.giobbi@gc.com)
+  [Email: tes](mailto:tes)
 
