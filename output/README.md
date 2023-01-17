@@ -1,7 +1,7 @@
 
-  # Node.js Challenge: Professional README Generator
+  # Test
 
-  
+  ![badge](https://img.shields.io/badge/license-mit-blue)
 
   ## Table-of-Contents
   - [Description](#description)
@@ -15,16 +15,16 @@
   ---
 
   ## [Description](#table-of-contents)
-  This program creates a professional readme using inquirer and chosen prompts from the user
+  this is a demo of my program
 
   ## [Installation](#table-of-contents)
-  to install, clone the repo locally to your machine. This can be done with the clone button in github
+  please clone from github
 
   ## [Usage](#table-of-contents)
-  This project can be used to create a readme without having to manually code the readme
+  use this to create a professional readme file
 
   ## [License](#table-of-contents)
-  n/a
+  [mit](http://choosealicense.com/licenses/mit/)
 
   For information on other liceneses, please visit
   [choosealicense.com](https://choosealicense.com/)
