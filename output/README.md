@@ -1,7 +1,7 @@
 
-  # Test
+  # Sample README.md
 
-  ![badge](https://img.shields.io/badge/license-mit-blue)
+  
 
   ## Table-of-Contents
   - [Description](#description)
@@ -15,16 +15,16 @@
   ---
 
   ## [Description](#table-of-contents)
-  this is a demo of my program
+  This is a demo of the readme that will be provided with the submission
 
   ## [Installation](#table-of-contents)
-  please clone from github
+  this section will include installation instructions
 
   ## [Usage](#table-of-contents)
-  use this to create a professional readme file
+  this project is used to generate a readme
 
   ## [License](#table-of-contents)
-  [mit](http://choosealicense.com/licenses/mit/)
+  n/a
 
   For information on other liceneses, please visit
   [choosealicense.com](https://choosealicense.com/)

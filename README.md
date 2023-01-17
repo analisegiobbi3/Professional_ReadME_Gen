@@ -44,6 +44,16 @@
 
   Note: you will need to have node installed on your device in order to operate this tool. 
 
+  ![initialize function](./images/Screen%20Shot%202023-01-17%20at%209.34.09%20AM.png)
+
+  You must follow the promopts and add your inputs to have content within your readme:
+
+  ![prompts](./images/Screen%20Shot%202023-01-17%20at%209.34.29%20AM.png)
+
+  Your output will be a professional readme
+  
+  ![final result](./images/Screen%20Shot%202023-01-17%20at%209.34.39%20AM.png)
+
   ## [License](#table-of-contents)
   n/a
 
