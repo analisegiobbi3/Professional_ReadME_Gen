@@ -1,7 +1,7 @@
 
-  # test
+  # README.md demo
 
-  
+  ![badge](https://img.shields.io/badge/license-mit-blue)
 
   ## Table-of-Contents
   - [Description](#description)
@@ -15,31 +15,31 @@
   ---
 
   ## [Description](#table-of-contents)
-  tes
+  this is a demo of how to use the readme generator
 
   ## [Installation](#table-of-contents)
-  test
+  install using github and npm
 
   ## [Usage](#table-of-contents)
-  test
+  this is a demo of how to use the readme generator
 
   ## [License](#table-of-contents)
-  n/a
+  [mit](http://choosealicense.com/licenses/mit/)
 
   For information on other liceneses, please visit
   [choosealicense.com](https://choosealicense.com/)
 
   ## [How to Contribute](#table-of-contents)
-  test
+  n/a
 
   ## [Tests](#table-of-contents)
-   test
+   n/a
 
    ---
   ## [Questions](#table-of-contents)
-  for an inquiries regarding the application, please use the github or email below: 
+  For any inquiries regarding the application, please use the github or email below: 
 
-  [Github](http://github.com/test)
+  [Github](http://github.com/analisegiobbi3)
 
-  [Email: tes](mailto:tes)
+  [Email: analise.giobbi@gc.com](mailto:analise.giobbi@gc.com)
 
